@@ -153,8 +153,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
-    </div>
+      先是仔細注意細節手動標記心臟圖片，這需要極大的耐心和專注，總是想標住得更精確。這次嘗試使用yolo模型來標記，特別有感覺。除此之外，相較於第一項競賽，這次在colab上跑每一個block時間都挺短的，不擔心斷線的問題，這次作業的經歷不僅讓我熟悉了YOLO的標註流程與配置，在困惑於調整參數時，老師特別佛心的在hw7ppt中提示更改參數，對於資料的調整也有了方向，並且也從中獲得成就感。為了與其他同學齊步，我先把作業按時完成，再來追求更好的精確度，不要落後太多才行！    </div>
   </div>
 
   <!-- ------------------------------------------------>
@@ -169,12 +168,12 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>4</td>
           <td>Simple baseline - 描述</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
           <td id='m2'>4</td>
           <td>Medium baseline - 描述</td>
         </tr>
@@ -184,7 +183,7 @@
           <td>Strong baseline - 描述</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" ></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -196,11 +195,25 @@
   <!-- ------------------------------------------------>
   <div class="row hw12 bottomrow">
     <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+    Simple Baseline分數圖
+    </div>
+    <div class="col-md-12 twenty">
+      <img class="withborder" src="./simple.png" height="120"> 
     </div>
   </div>
+
+  <!-- ------------------------------------------------>
+  <div class="row hw12 bottomrow">
+    <div class="col-md-12 twenty">
+    Medium Baseline分數圖 (epoch = 50, batch = 4 ,TrainData從30設定為40)
+    </div>
+    <div class="col-md-12 twenty">
+      <img class="withborder" src="./medium.png" height="120"> 
+    </div>
+  </div>
+
+  <!-- ------------------------------------------------>
+
 
   <!-- ------------------------------------------------>
 
